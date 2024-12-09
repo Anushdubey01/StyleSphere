@@ -1,3 +1,4 @@
+
 # StyleSphere
 
 **StyleSphere** is an AI-driven application designed to revolutionize fashion recommendations. By analyzing user attributes such as age, body type, height, color preferences, occasions, and seasons, StyleSphere delivers tailored outfit suggestions. This intelligent system combines real-time data integration and trend analysis, empowering users to elevate their style effortlessly.
@@ -10,6 +11,30 @@
 - **Trend Analysis**: Incorporates the latest fashion trends to enhance recommendations.
 - **Seasonal Adaptation**: Adjusts choices based on current or preferred seasons.
 - **Real-Time Integration**: Utilizes live data for dynamic insights.
+
+---
+
+## Database Information
+
+The data used to create the recommendation system is sourced directly from **Myntra.com** using a custom Python script. Here's how the data was curated and used:
+
+1. **Data Collection**:
+   - Product images and details (such as category, color, fit, gender, occasion, and more) were extracted.
+   - The data was stored in a structured format in a CSV file.
+
+2. **Model Development**:
+   - The curated data was used to create a recommendation model.
+   - An **Outfit Pairing Model** was crafted by manually training the system. This included:
+     - Defining rules for pairing outfits based on user attributes and preferences.
+     - Setting guidelines for what outfits are suitable for various occasions, weather conditions, and personal styles.
+
+3. **Manual Insights**:
+   - Extensive manual curation was performed to ensure the model understands pairing logic.
+   - For example:
+     - "What suits best with jeans for a casual outing?"
+     - "What is appropriate for a formal occasion during winter?"
+
+This combination of automation and manual expertise ensures StyleSphere provides precise and user-centric recommendations.
 
 ---
 
